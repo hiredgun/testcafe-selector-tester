@@ -1,0 +1,17 @@
+{
+    "name": "testcafe-selector-tester",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "serve -s ./",
+        "test": "testcafe chrome test.js -L"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "serve": "^11.0.0",
+        "testcafe": "^1.1.2"
+    }
+}
